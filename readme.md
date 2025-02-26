@@ -19,3 +19,12 @@ step:3
 step:4 track file
         git add <fileName>  or add all the use
         git add .
+
+
+
+step 1 install git
+2   check virsion
+3   git create name and email
+4   create new rep in github
+5   copy origin link on github
+6   
