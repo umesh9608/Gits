@@ -28,3 +28,39 @@ step 1 install git
 4   create new rep in github
 5   copy origin link on github
 6   
+
+
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git init
+Reinitialized existing Git repository in C:/Users/umesh/OneDrive/Desktop/Gits/.git/
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git add .
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git commit -m "test"
+[main 6b84ede] test
+ 1 file changed, 9 insertions(+)
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git remote add origin https://github.com/umesh9608/Gits.git
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git push -u origin main   
+
+second time only use PS C:\Users\umesh\OneDrive\Desktop\Gits> git push 
+
+
+Counting objects: 100% (5/5), done.
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git branch
+* main
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git branch test
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git branch     
+* main
+  test
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git switch test
+M       index.html
+M       readme.md
+Switched to branch 'test'
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git branch     
+  main
+* test
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git checkout main
+M       index.html
+M       readme.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\umesh\OneDrive\Desktop\Gits> git branch       
+* main
+  test
